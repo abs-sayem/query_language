@@ -25,3 +25,19 @@
 | C03 | Aaina | IX    | 2006-01-02 | F      | Dhk  | 712   |
 | C04 | Raian | XI    | 2000-01-01 | M      | Com  | 667   |
 | C05 | Aaifa | X     | 2001-09-09 | F      | Ctg  | 887   |
+
+#### **Create Database**
+* `CREATE DATABASE db_name;` or `create database db_name;` => [Create Database]
+* `DROP DATABASE db_name;` or `drop database db_name;` => [Delete Database]
+* `USE db_name;` => [To use created database, from now everythng wil be for this database]
+* ```
+CREATE TABLE table_name(
+    column_name0 datatype, constraint,
+    column_name1 datatype, constraint,
+    .
+    .
+    column_name5 datatyp, constraint
+); => [To create database]
+
+* `INSERT INTO table_name VALUES("asl16", "Hasam Mozumder", 30);` => [Insert values to the Table]
+* `SELECT * FROM table_name;` => [Print the Table]

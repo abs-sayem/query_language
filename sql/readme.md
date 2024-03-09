@@ -28,11 +28,15 @@
 | Task | Query | Example |
 |------|-------|---------|
 | Create Database | CREATE DATABASE db_name | create database temp_db |
+| Create Database if not Exists | CREATE DATABASE IF NOT EXISTX db_name | create database if not exists temp_db |
 | Delete Database | DROP DATABASE db_name | drop database temp_db |
+| Delete Database if Exists | DROP DATABASE IF EXISTS db_name | drop database if exists temp_db |
 | Use Database | USE db_name | use temp_db |
 | Create Table | CREATE TABLE table_name(col_name0 datatype, constraint, col_name1 datatype, constraint) | create table temp_table(id varchar(50) primary key, name varchar(50), age int not null) |
 | Insert Values | INSERT INTO table_name VALUES(val1, val2, val3) | insert into temp_table values("id000", "Name0", 30) |
 | Print Table | SELECT * FROM table_name | select * from temp_table |
+| Show Databases | SHOW DATABASES |
+| Show Tables | SHOW TABLES |
 
 ### **SQL Datatypes**
 | Datatype | Description | Usage |
@@ -54,8 +58,14 @@
 ### **Types of SQL Commands**
 | Types | SQL Commands |
 |-------|--------------|
-| DDL (Data Definition Language) | reate, Alter, Rename, Truncate and Drop |
+| DDL (Data Definition Language) | Create, Alter, Rename, Truncate and Drop |
 | DQL (Data Query Language) | Select |
 | DML (Data Manipulation Language) | Insert, Update and Delete |
 | DCL (Data Control Language) | Grant and Revoke permission to users |
 | TCL (Transaction Control Language) | Start Transaction, Commit, Rollback |
+
+### **Keys**
+| Keys | Description |
+|------|-------------|
+| Primary Key | A column (or set of columns) that uniquely identifies each row, there will be one primary key & should not be NULL |
+| Foreign Key | A column (or set of columns) that refers to the primary key, there can be multiple foreign keys & can have duplicate and NULL values |

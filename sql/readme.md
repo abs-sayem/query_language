@@ -53,7 +53,7 @@
 | Boolean | 0 or 1 | boolean |
 | Date | yyyy-mm-dd (1000-01-01 to 9999-12-31) | date |
 | YEAR | 1901 to 2155 | year |
-| UNSIGNED | Only Positive | tinyint unsigned(0 to 255) |
+| UNSIGNED | Only Positive | <div>tinyint unsigned(0 to 255)</div>int unsigned(2^32) |
 
 ### **Types of SQL Commands**
 | Types | SQL Commands |

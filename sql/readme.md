@@ -49,3 +49,13 @@
 | Boolean | 0 or 1 | boolean |
 | Date | yyyy-mm-dd (1000-01-01 to 9999-12-31) | date |
 | YEAR | 1901 to 2155 | year |
+| UNSIGNED | Only Positive | tinyint unsigned(0 to 255) |
+
+### **Types of SQL Commands**
+| Types | SQL Commands |
+|-------|--------------|
+| DDL (Data Definition Language) | reate, Alter, Rename, Truncate and Drop |
+| DQL (Data Query Language) | Select |
+| DML (Data Manipulation Language) | Insert, Update and Delete |
+| DCL (Data Control Language) | Grant and Revoke permission to users |
+| TCL (Transaction Control Language) | Start Transaction, Commit, Rollback |

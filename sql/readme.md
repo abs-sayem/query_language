@@ -16,8 +16,6 @@
 * It would not possible having tables like- Student (from college) and Salary (from Company) in the same database.
 
 ### **Table Structure**
-**`Student Table`**
-
 | ID  | Name  | Class | DOB        | Gender | City | Marks |
 |-----|-------|-------|------------|--------|------|-------|
 | C01 | Asish | X     | 2000-02-01 | M      | Ctg  | 551   |
@@ -26,7 +24,17 @@
 | C04 | Raian | XI    | 2000-01-01 | M      | Com  | 667   |
 | C05 | Aaifa | X     | 2001-09-09 | F      | Ctg  | 887   |
 
-#### **Create Database**
+### **Queries**
+| Task | Query | Example |
+|------|-------|---------|
+| Create Database | create database db_name | create database temp_db |
+| Delete Database | drop database db_name | drop database temp_db |
+| Use Database | use db_name | use temp_db |
+| Create Table | create table table_name(col_name0 datatype, constraint, col_name1 datatype, constraint) | create table temp_table(id varchar(50) primary key, name varchar(50), age int not null) |
+| Insert Values | INSERT INTO table_name VALUES(val1, val2, val3) | insert into temp_table values("id000", "Name0", 30) |
+| Print Table | SELECT * FROM table_name | select * from temp_table |
+
+
 * `CREATE DATABASE db_name;` or `create database db_name;` => [Create Database]
 * `DROP DATABASE db_name;` or `drop database db_name;` => [Delete Database]
 * `USE db_name;` => [To use created database, from now everythng wil be for this Database]

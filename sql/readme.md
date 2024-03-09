@@ -33,3 +33,19 @@
 | Create Table | CREATE TABLE table_name(col_name0 datatype, constraint, col_name1 datatype, constraint) | create table temp_table(id varchar(50) primary key, name varchar(50), age int not null) |
 | Insert Values | INSERT INTO table_name VALUES(val1, val2, val3) | insert into temp_table values("id000", "Name0", 30) |
 | Print Table | SELECT * FROM table_name | select * from temp_table |
+
+### **SQL Datatypes**
+| Datatype | Description | Usage |
+|----------|-------------|-------|
+| CHAR | String(0-255), Fixed Sized | char(50) |
+| VARCHAR | String(0-255), Variable Sized | varchar(50) |
+| BLOB | String(0-65535) | blob(1000) |
+| INT | Integer() | int |
+| TINYINT | Integer(-127 to 127) | tinyint |
+| BUGINT | Integer() | bigint |
+| BIT | Bit(1-64) | bit(2) |
+| FLOAT | Decimal number upto 23 digits | float |
+| DOUBLE |  Decimal number (24-53) digits | double |
+| Boolean | 0 or 1 | boolean |
+| Date | yyyy-mm-dd (1000-01-01 to 9999-12-31) | date |
+| YEAR | 1901 to 2155 | year |

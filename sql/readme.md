@@ -27,10 +27,10 @@
 ### **Queries**
 | Task | Query | Example |
 |------|-------|---------|
-| Create Database | create database db_name | create database temp_db |
-| Delete Database | drop database db_name | drop database temp_db |
-| Use Database | use db_name | use temp_db |
-| Create Table | create table table_name(col_name0 datatype, constraint, col_name1 datatype, constraint) | create table temp_table(id varchar(50) primary key, name varchar(50), age int not null) |
+| Create Database | CREATE DATABASE db_name | create database temp_db |
+| Delete Database | DROP DATABASE db_name | drop database temp_db |
+| Use Database | USE db_name | use temp_db |
+| Create Table | CREATE TABLE table_name(col_name0 datatype, constraint, col_name1 datatype, constraint) | create table temp_table(id varchar(50) primary key, name varchar(50), age int not null) |
 | Insert Values | INSERT INTO table_name VALUES(val1, val2, val3) | insert into temp_table values("id000", "Name0", 30) |
 | Print Table | SELECT * FROM table_name | select * from temp_table |
 

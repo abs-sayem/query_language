@@ -33,12 +33,3 @@
 | Create Table | CREATE TABLE table_name(col_name0 datatype, constraint, col_name1 datatype, constraint) | create table temp_table(id varchar(50) primary key, name varchar(50), age int not null) |
 | Insert Values | INSERT INTO table_name VALUES(val1, val2, val3) | insert into temp_table values("id000", "Name0", 30) |
 | Print Table | SELECT * FROM table_name | select * from temp_table |
-
-
-* `CREATE DATABASE db_name;` or `create database db_name;` => [Create Database]
-* `DROP DATABASE db_name;` or `drop database db_name;` => [Delete Database]
-* `USE db_name;` => [To use created database, from now everythng wil be for this Database]
-* `CREATE TABLE table_name(column_name0 datatype, constraint, column_name1 datatype, constraint, column_name5 datatyp, constraint);` => [To create Table]
-
-* `INSERT INTO table_name VALUES("asl16", "Hasam Mozumder", 30);` => [Insert values into the Table]
-* `SELECT * FROM table_name;` => [Print the Table]

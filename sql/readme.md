@@ -44,9 +44,9 @@
 | CHAR | String(0-255), Fixed Sized | char(50) |
 | VARCHAR | String(0-255), Variable Sized | varchar(50) |
 | BLOB | String(0-65535) | blob(1000) |
-| INT | Integer() | int |
+| INT | Integer(-2^31 to 2^31) | int |
 | TINYINT | Integer(-127 to 127) | tinyint |
-| BUGINT | Integer() | bigint |
+| BIGINT | Integer(-2^63 to 2^63) | bigint |
 | BIT | Bit(1-64) | bit(2) |
 | FLOAT | Decimal number upto 23 digits | float |
 | DOUBLE |  Decimal number (24-53) digits | double |

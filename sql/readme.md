@@ -69,6 +69,7 @@
 |------|-------------|
 | Primary Key | A column (or set of columns) that uniquely identifies each row, there will be one primary key & should not be NULL |
 | Foreign Key | A column (or set of columns) that refers to the primary key, there can be multiple foreign keys & can have duplicate and NULL values |
+
 **`For Example:`**
 |Table-1: **Student**                | | Table-2: **City**  |
 |------------------------------------|-|--------------------|
